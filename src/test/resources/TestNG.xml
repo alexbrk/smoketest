@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testngsuite" verbose="2">
+	<test name="smoketest1">
+		<parameter name="path" value="/"/>
+		<classes>
+		    <class name="com.smoketest.tests.LoginTest"/>
+		    <class name="com.smoketest.tests.OrderTest"/>
+		    <class name="com.smoketest.tests.RegisterTest"/>
+		    <class name="com.smoketest.tests.SearchTest"/>
+		    <class name="com.smoketest.tests.WishlistTest"/>
+		</classes>
+	</test>
+</suite>
+
